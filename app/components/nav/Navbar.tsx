@@ -1,7 +1,12 @@
 import React from "react";
+import Search from "./Search";
 
 function Navbar() {
-  return <div>Navbar</div>;
+  return (
+    <div>
+      <Search />
+    </div>
+  );
 }
 
 export default Navbar;

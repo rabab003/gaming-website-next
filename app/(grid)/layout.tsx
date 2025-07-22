@@ -1,15 +1,20 @@
 import GridContainer from "../components/defaults/GridContainer";
+import Navbar from "../components/nav/Navbar";
+import SideBar from "../components/nav/SideBar";
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <main className="grid h-screen grid-cols-12">
+    <main className="grid h-screen background">
       <GridContainer cols={12}>
-        <div className="bg-red-300 col-span-2">sidebar</div>
-        <div className="bg-blue-400 col-span-10">
-          this is the rest {children}
+        <div className="bg-red-300 hidden lg:flex col-span-2">
+          <SideBar />
+        </div>
+        <div className="bg-blue-400 lg:col-span-10 col-span-10">
+          <Navbar /> {children}
         </div>
       </GridContainer>
     </main>
