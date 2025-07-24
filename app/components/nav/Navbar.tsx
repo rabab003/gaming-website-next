@@ -1,5 +1,5 @@
 import React from "react";
-import Search from "./Search";
+import Search from "../Search";
 import ButtonGame from "../defaults/ButtonGame";
 
 function Navbar() {

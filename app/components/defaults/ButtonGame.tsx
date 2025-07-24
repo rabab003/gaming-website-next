@@ -1,7 +1,7 @@
 "use client";
 
 import React, { ReactElement } from "react";
-import ButtonSvg from "../nav/ButtonSvg";
+import ButtonSvg from "../ButtonSvg";
 import { icons, Link } from "lucide-react";
 import Spinner from "./Spinner";
 

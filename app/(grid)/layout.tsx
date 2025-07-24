@@ -1,4 +1,4 @@
-import ButtonGradient from "@/app/components/nav/ButtonGradient";
+import ButtonGradient from "@/app/components/ButtonGradient";
 import GridContainer from "../../components/defaults/GridContainer";
 import Navbar from "../../components/nav/Navbar";
 import SideBar from "../../components/nav/SideBar";
